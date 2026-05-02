@@ -1,5 +1,8 @@
 # Massachusetts-Building-Detection-From-Aerial-Imagery
 
+> [!NOTE]
+> **GitHub may show "Invalid Notebook" when previewing the `.ipynb` files.** This is a rendering issue, not a problem with the file. To view the notebooks, click the **Download raw file** button (or download the repo) and open them locally in Jupyter / VS Code, or paste the GitHub URL into [nbviewer.org](https://nbviewer.org/).
+
 A convolutional neural network that classifies whether a piece of land is built on, trained on Massachusetts NAIP aerial imagery and MassGIS building footprints. Final project for **BA865 — Neural Networks for Business Applications** (Boston University, Spring 2026).
 
 We built and benchmarked two formulations of the same underlying task:
