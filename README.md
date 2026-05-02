@@ -22,25 +22,6 @@ The parcel formulation has cleaner labels and better per-input accuracy. The til
 
 The ~5-point accuracy gap between the two formulations is decomposed in the writeup into label-noise vs. structural sources (image–question alignment, fixed-grid zoom).
 
----
-
-## Repository Structure
-
-```
-.
-├── notebooks/
-│   ├── parcel_pipeline.ipynb        # Team notebook: parcel-scoped CNN
-│   └── tile_pipeline.ipynb          # Individual notebook: tile-scoped CNN
-├── src/
-│   └── tile_labeler.py              # Reference argmax + secondary-floor labeler
-├── presentation/
-│   └── BA865_Final_Presentation.pptx
-├── requirements.txt
-└── README.md
-```
-
----
-
 ## Quick Start
 
 Tested on Google Colab (CPU and GPU runtimes). Recommended path: open the notebook directly in Colab.
